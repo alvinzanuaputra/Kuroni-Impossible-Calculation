@@ -13,9 +13,9 @@ def solve(n, m, a):
                 return 0
     return result
 
-# Membaca input
+# masukan
 n, m = map(int, input().split())
 a = list(map(int, input().split()))
 
-# Memanggil fungsi dan mencetak hasil
+# cetak
 print(solve(n, m, a))
