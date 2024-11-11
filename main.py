@@ -1,6 +1,10 @@
-def solve(n, m, a):
+def solve(n, m, a): 
+    # Jika ada lebih banyak elemen daripada nilai m, hasilnya pasti 0 (pigeonhole principle)
+    if n > m:
+        return 0
+
     result = 1
-    # Looping untuk menghitung produk |ai - aj|
+    # Loop untuk menghitung produk |ai - aj|
     for i in range(n):
         for j in range(i + 1, n):
             diff = abs(a[i] - a[j])
