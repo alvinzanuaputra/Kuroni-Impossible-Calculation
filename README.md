@@ -21,6 +21,7 @@
 5. [Langkah Penyelesaian](#langkah-penyelesaian)
 6. [Contoh Perhitungan](#contoh-perhitungan)
 7. [Hasil](#hasil)
+8. [Kesimpulan](#kesimpulan)
 
 ## Deskripsi Masalah
 
